@@ -1,4 +1,5 @@
 /**** Importation de la police "Lato "****/
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 /**** Reset ****/
@@ -16,13 +17,19 @@
 body {
     width: 100%;
     min-height: 100vh;
+    background-color: #fffffe;
+    color: #0c67ae;
+    font-family: "Lato", sans-serif;
+}
+
+/**** body , section ****/
+
+body,
+.game {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fffffe;
-    color: #0c67ae;
-    font-family: "Lato", sans-serif;
 }
 
 /**** header, footer ****/
@@ -32,7 +39,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 15px;
+    padding: 20px 15px;
 }
 
 /**** header ****/
@@ -40,11 +47,13 @@ footer {
 .main__title {
     font-size: 30px;
     text-align: center;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 header i {
     padding-left: 8px;
-    font-size: 26px;
+    font-size: 24px;
     color: #0c67ae;
 }
 
@@ -57,10 +66,7 @@ header i {
 /**** section game ****/
 
 .game {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-block: 20px;
 }
 
 .logo {
