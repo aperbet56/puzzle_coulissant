@@ -1,6 +1,7 @@
 // Retrieving HTML5 elements
 const gameArea = document.querySelector(".game__area");
 const turnNumber = document.querySelector(".number");
+const copyrightYear = document.querySelector(".year");
 
 // Creating constants
 const rows = 3;
@@ -100,8 +101,21 @@ const dragEnd = (e) => {
   }
 };
 
+// Declaration of the getCurrentYear function which will allow us the dynamic display of the year
+const getCurrentYear = () => {
+  const date = new Date();
+  //console.log(date);
+
+  const year = date.getFullYear();
+  //console.log(year);
+
+  copyrightYear.textContent = `${year}`;
+};
+// getCurrentYear() function call
+getCurrentYear();
+
 // as soon as the window loads
 window.onload = () => {
-  // startGame function call
+  // startGame() function call
   startGame();
 };
