@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle coulissant</title>
+    <!-- CDN font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- Importation des styles -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Début du header -->
+    <header>
+      <h1 class="main__title">Puzzle coulissant</h1>
+      <i class="fa-solid fa-puzzle-piece"></i>
+    </header>
+    <!-- Fin du header -->
+
+    <!-- Début du main -->
+    <main class="main__content">
+      <!-- Début de la section game -->
+      <section class="game">
+        <div class="logo">
+          <img src="logo.png" alt="Logo du puzzle coulissant" />
+        </div>
+        <div class="game__area"></div>
+        <h2 class="subtitle">Nombre de tours : <span class="number"></span></h2>
+      </section>
+      <!-- Fin de la section game-->
+    </main>
+    <!-- Fin du main -->
+
+    <!-- Début du footer -->
+    <footer>
+      <p class="copyright">
+        &copy; <span class="year"></span>. Puzzle coulissant
+      </p>
+      <i class="fa-solid fa-puzzle-piece"></i>
+      <!-- Fin du footer -->
+    </footer>
+    <!-- Importation du fichier JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
