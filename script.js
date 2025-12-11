@@ -75,8 +75,8 @@ const dragEnd = (e) => {
   }
 
   let currentCoords = currentTile.id.split("-");
-  let r = parseInt(currentCoords[0]);
-  let c = parseInt(currentCoords[1]);
+  let r = parseInt(currentCoords[0]); // r = row
+  let c = parseInt(currentCoords[1]); // c = column
 
   let otherCoords = otherTile.id.split("-");
   let r2 = parseInt(otherCoords[0]);
