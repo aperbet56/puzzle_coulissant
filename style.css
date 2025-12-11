@@ -43,6 +43,11 @@ footer {
     padding: 20px 15px;
 }
 
+header i,
+footer i {
+    padding-left: 8px;
+}
+
 /**** header ****/
 
 .main__title {
@@ -53,9 +58,7 @@ footer {
 }
 
 header i {
-    padding-left: 8px;
     font-size: 24px;
-    color: #0c67ae;
 }
 
 /**** main ****/
@@ -67,8 +70,9 @@ header i {
 
 /**** section game ****/
 
-.game {
-    margin-block: 20px;
+.game,
+.title {
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -89,7 +93,7 @@ header i {
     border-radius: 6px;
     display: flex;
     flex-wrap: wrap;
-    margin-block: 30px;
+    margin-block: 20px;
 }
 
 .game__area img {
@@ -101,9 +105,8 @@ header i {
 .title {
     text-align: center;
     font-size: 26px;
-    line-height: 1.7;
+    line-height: 1.6;
     width: 380px;
-    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -121,7 +124,6 @@ header i {
 
 footer i {
     font-size: 16px;
-    padding-left: 8px;
 }
 
 /**** responsive design version mobile ****/
