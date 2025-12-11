@@ -1,4 +1,4 @@
-/**** Importation de la police "Lato "****/
+/**** Importation de la police "Lato" ****/
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
@@ -122,4 +122,35 @@ header i {
 footer i {
     font-size: 16px;
     padding-left: 8px;
+}
+
+/**** responsive design version mobile ****/
+
+@media screen and (max-width: 400px) {
+    .main__title {
+        font-size: 24px;
+    }
+
+    .logo,
+    .game__area {
+        width: 315px;
+    }
+
+    .game__area {
+        height: 315px;
+        border: 6px solid #0c67ae;
+    }
+
+    .game__area img {
+        width: 101px;
+        height: 101px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
 }
