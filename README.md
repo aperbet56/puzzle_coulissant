@@ -1,5 +1,7 @@
 ## PUZZLE COULISSANT 🧩
 
+![Design preview for the project](./img/banner.png)
+
 ## Le challenge
 
 Création d'un puzzle coulissant en HTML5, CSS3 et JavaScript.
